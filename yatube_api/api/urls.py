@@ -15,6 +15,5 @@ router_v1.register(prefix=r'v1/follow',
 
 urlpatterns = [
     path('', include(router_v1.urls)),
-    path('v1/', include('djoser.urls')),
     path('v1/', include('djoser.urls.jwt')),
 ]
