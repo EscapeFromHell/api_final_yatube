@@ -1,4 +1,4 @@
-# api_final
+# api_yatube
 Это проект API для Yatube.
 
 # Установка.
